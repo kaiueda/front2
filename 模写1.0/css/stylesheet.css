@@ -1,0 +1,282 @@
+ body{
+    font: 14px/1.9 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
+    font-weight: 300;
+    -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
+    color: #fff;
+    background: #000;
+}
+
+/*header*/
+
+ a {
+    text-decoration: none;
+    color: #fff;
+ }
+
+ header{
+     text-align: center;
+ }
+
+.header-wrapper{
+    width: 100%;
+}
+
+.header-top-logo{
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+.header-logo{
+    width: 142px;
+    height: 80px;
+}
+
+ul{
+     list-style: none;
+}
+
+.menu-list ul{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-list li{
+    padding: 50px 25px;
+}
+
+ /*header*/
+
+
+.massage-img{
+    margin: 0 6%;
+}
+
+.mainImg{
+    width: 100%;
+}
+
+.text-wrapper{
+    padding: 75px 20% 0 20%;
+    text-align: center;
+}
+
+.massage-title{
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+    display: flex;
+  align-items: center; /* 垂直中心 */
+  justify-content: center; 
+}
+
+.massage-title:before, .massage-title:after {
+    border-top: 1.5px solid;
+    content: "";
+    width: 100%; /* 線の長さ */
+}
+
+.massage-title:before {
+    margin-right: 4em; /* 文字の右隣 */
+  }
+  .massage-title:after {
+    margin-left: 4em; /* 文字の左隣 */
+  }
+  
+.text-wrapper p{
+    text-align: left;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+.img-wrapper{
+    width: 100%;
+}
+
+.img-list img{
+    width: 33.33333333333%;
+    vertical-align: bottom;
+}
+
+
+
+/*project*/
+.project-wrapper{
+    padding: 80px 20% 0 20%;
+    text-align: center;
+}
+
+.p-title{
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.p-title:before, .p-title:after {
+    border-top: 1.5px solid;
+    content: "";
+    width: 100%; /* 線の長さ */
+}
+
+.p-title:before {
+    margin-right: 4em; /* 文字の右隣 */
+}
+
+.p-title:after {
+    margin-left: 4em; /* 文字の左隣 */
+}
+
+.project-wrapper img{
+    width: 100%;
+    padding-top: 40px;
+}
+
+.project-wrapper p{
+    padding-top: 40px;
+    text-align: left;
+}
+
+.subimg{
+    width: 100%;
+    padding-top: 80px;
+}
+
+.subimg img{
+    width: 100%;
+}
+
+/*brand-wrapper*/
+
+.brand-wrapper{
+    padding: 80px 15% 0 15%;
+    text-align: center;
+}
+
+.brand-wrapper h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.brand-wrapper h1:before, .brand-wrapper h1:after {
+    border-top: 1.5px solid;
+    content: "";
+    width: 25%; /* 線の長さ */
+}
+
+.brand-wrapper h1:before {
+    margin-right: 4em; /* 文字の右隣 */
+}
+
+.brand-wrapper h1:after {
+    margin-left: 4em; /* 文字の左隣 */
+}
+
+.brand-text ul{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.brand-text li{
+    padding: 0 25px;
+}
+
+.brand-text p{
+    text-align: left;
+    padding-top: 40px;
+}
+
+.imgwaku{
+    padding: 80px 40px;
+    background-color: #fff;
+}
+
+.brand-text img{
+    width: 170px;
+    height: 100px;
+}
+
+.parallax{
+    height: 560px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/mainImg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.company-wrapper{
+    padding-top: 80px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title{
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.title:before, .title:after {
+    border-top: 1.5px solid;
+    content: "";
+    width: 100%; /* 線の長さ */
+}
+
+.title:before {
+    margin-right: 4em; /* 文字の右隣 */
+}
+
+.title:after {
+    margin-left: 4em; /* 文字の左隣 */
+}
+
+.company-text{
+    display: flex;
+    padding-top: 60px;
+}
+
+.add{
+    text-align: left;
+    padding-right: 15%;
+}
+
+.sns{
+    padding-top: 45px;
+}
+
+.sns img{
+    padding-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.gmap{
+    width: 60%;
+    position: relative;
+}
+
+.gmap iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+}
